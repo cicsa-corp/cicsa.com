@@ -1,0 +1,572 @@
+html, body
+{
+  	height: 100%;
+}
+
+body
+{
+  	font: 18px 'open_san';  
+	color: #333333;
+	background-color: #dce8eb;
+	position: relative;
+}
+
+strong
+{
+  	font-family: 'open_sansbold';
+}
+
+em
+{
+	font-family: 'open_sansitalic';
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #fff;
+ 	font: 48px 'arvoregular';;	
+}
+
+h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong
+{
+	font-family: 'ralewaybold';
+}
+
+a, a:before, a:after
+{
+	color: #ffffff;
+ 	text-decoration: none;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+a:hover, a:hover:before, a:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span, span:before, span:after
+{
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+span:hover, span:hover:before, span:hover:after
+{	
+	cursor: pointer;
+ 	-webkit-transition: all 300ms ease-out;
+ 	-moz-transition: all 300ms ease-out;
+ 	-ms-transition: all 300ms ease-out;
+ 	-o-transition: all 300ms ease-out;
+ 	transition: all 300ms ease-out;
+}
+
+input, textarea
+{
+	width: 100%;
+    height: 42px;
+    font: 15px 'open_san';
+    color: #666666;
+    background: #fff;
+    border: 0px;
+    /* border-bottom: 3px solid #69c2cb; */
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+	margin-bottom:18px;
+}
+
+textarea
+{
+	height: 142px;
+	padding-top: 6px;
+	margin-bottom: 2px;
+	resize: none;
+}
+
+input[type="number"]
+{
+    width: 35px;
+    height: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    border: 2px solid #A6244A;
+}
+
+input:focus, textarea:focus, .inputSeleccionado
+{
+	outline: 0;
+	border-color: #ef662f;
+}
+
+input[type="checkbox"]
+{
+	width: auto;
+	height: auto;
+	margin: 0px;
+	margin-right: 9px;
+	vertical-align: middle;
+}
+
+/******************************************************Placeholder******************************************************/
+
+::-webkit-input-placeholder
+{
+ 	color: #666666;
+}
+
+::-o-input-placeholder
+{
+ 	color: #666666;
+}
+
+::-ms-input-placeholder
+{
+ 	color: #666666;
+}
+
+:-moz-input-placeholder
+{
+ 	color: #666666;
+}
+
+::-moz-input-placeholder
+{
+ 	color: #666666;
+}
+
+/************************************************************************************/
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+
+
+/************************************************************************************/
+
+.MainNav
+{
+	width: 252px;
+	height: 100%;
+	min-height: 650px;
+	background-color: #f1f1f1;
+	position: fixed;
+	z-index: 1;
+}
+
+.MainNav-Logo{
+	height: 178px;
+	background: #333333 url(../images/logo.png) center no-repeat;
+}
+
+.MainNav-List{
+	margin-top: 34px;
+	padding-bottom: 16px;
+}
+
+.MainNav-LinkList{
+	width: 100%;
+    color: #333333;
+    font: 14px 'arvoregular';
+    padding: 15px 0px 17px 40px;
+    border-bottom: 2px solid #c2c2c2;
+}
+
+.MainNav-LinkList:hover, .MainNav-LinkList.activo{
+	color: #fff;
+	background-color: #bb0a1b;
+	border-color: #65c2cc;
+}
+
+
+.MainNav-RedesSociales{
+	width: 103px;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	margin-left: 31px;
+	padding-top: 15px;
+	border-top: 5px solid #999999;
+}
+
+.MainNav-ItemRedSocial{
+	width: 28px;
+	height: 28px;
+	background-color: #666666;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 13px;
+}
+
+.MainNav-IcoFacebookRedSocial{
+	background-image: url(../images/icoFace.png);
+}
+
+.MainNav-IcoLnRedSocial{
+	background-image: url(../images/icoLn.png);
+}
+
+.MainNav-ItemRedSocial:hover{
+	background-color: #bb0a1b;
+}
+
+.MainNav-ListContacto{
+	font-size: 13px;
+}
+
+.MainNav-ListContacto a{
+	color: #333333;
+}
+
+
+.MainNav-ListContacto{
+	padding-left: 31px;
+    padding-right: 28px
+}
+
+.MainNav-ListContacto li{
+	margin-bottom: 9px;
+	padding-left: 28px;
+}
+
+.MainNav-IcoDireccion{
+	background: url(../images/icoDireccion.png) 0px 3px no-repeat;
+}
+
+.MainNav-IcoTelefono{
+	background: url(../images/icoTelefono.png) no-repeat;
+}
+
+.MainNav-IcoEmail{
+	background: url(../images/icoEmail.png) 0px 5px no-repeat;
+}
+
+.MainNav-ListContacto a:hover{
+	color: #bb0a1b;
+	text-decoration: underline;
+}
+
+/************************************************************************************/
+
+article{
+	margin-left: 252px;
+	position: relative;
+}
+
+.Home{
+	background: #b9d2ed url(../images/fondos/bgHome.jpg) center no-repeat;
+}
+
+.Home-Center{
+	width: 514px;
+	color: #fff;
+	font: 20px 'open_sanssemibold';
+	top: 18%;
+}
+
+.Home-Img{
+	margin-bottom: 80px;
+}
+
+.Home-Barra{
+	width: 150px;
+	height: 6px;
+	background-color: #fff;
+	margin-top: 100px;
+}
+
+/************************************************************************************/
+
+.Corporativo{
+	background: #b9d2ed url(../images/fondos/bgCorporativo.jpg) center no-repeat;
+}
+
+.Corporativo-Center{
+	width: 859px;
+	top: 8%;
+}
+
+.Corporativo-Info{
+	width: 503px;
+	font-size: 16px;
+	background-color: rgba(255,255,255,0.80);
+	padding-top: 25px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 52px;
+}
+
+.Corporativo-Title{
+	color: #bb0a1b;
+	margin-bottom: 18px;
+}
+
+.Corporativo-Info p{
+	margin-bottom: 40px;
+}
+
+.Corporativo-Txt{
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 28px !important;
+}
+
+.Corporativo-Txt strong{
+	color: #bb0a1b;
+}
+
+.Corporativo-TitleInterior{
+	color: #b20c1c;
+	font-size: 24px;
+}
+
+.Corporativo-Logos{
+	width: 240px;
+	height: 729px;
+	background: url(../images/bgLogosCorporativo.jpg) no-repeat;
+}
+
+/************************************************************************************/
+
+.Soluciones{
+	background: #b9d2ed url(../images/fondos/bgSoluciones.jpg) center no-repeat;
+}
+
+.Soluciones-Center{
+	width: 900px;
+	top: 11%;
+}
+
+.Soluciones-Title{
+	margin-bottom: 18px;
+}
+
+.Soluciones-Item{
+	width: 296px;
+	font-size: 15px;
+	margin-right: 0px;
+}
+
+.Soluciones-Info{
+	min-height: 345px;
+	background-color: #f1f1f1;
+	padding: 0px 22px;
+	padding-top: 29px;
+	padding-bottom: 30px;
+}
+
+.Soluciones-TitleItem{
+	color: #bb0a1b;
+	font-size: 24px;	
+	margin-bottom: 16px;
+}
+
+.Soluciones-TitleItem span{
+	width: 129px;
+	height: 6px;
+	background-color: #d7d7d7;
+	margin-top: 15px;
+}
+
+.Soluciones-List li{
+	background: url(../images/icoListSoluciones.png) 0px 7px no-repeat;
+	line-height: 17px;
+	margin-bottom: 12px;
+	padding-left: 16px;
+}
+
+
+
+/************************************************************************************/
+
+.GruasMarinas{
+	background: #b9d2ed url(../images/fondos/bgGruas.jpg) center no-repeat;
+}
+
+.GruasMarinas-Center{
+	width: 852px;
+	background-color: rgba(255,255,255,0.90);
+	top: 8%;
+	overflow:hidden;
+}
+
+.GruasMarinas-Info{
+	padding-top: 25px;
+	padding-left: 50px;
+	padding-right: 66px;
+}
+
+.GruasMarinas-Title{
+	color: #bb0a1b;
+	margin-bottom: 40px;
+}
+
+.GruasMarinas-Txt{
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 45px;
+}
+
+.GruasMarinas-Txt strong{
+	color: #bb0a1b;
+}
+
+.GruasMarinas-ColImg{
+	width: 360px;
+}
+
+.GruasMarinas-ColImg img{
+	margin-top: 12px;
+	margin-left: 49px;
+}
+
+.GruasMarinas-ColInfo{
+	width: 369px;
+	font-size: 16px;
+}
+
+.GruasMarinas-ColInfo p{
+	margin-bottom: 15px;
+}
+
+.GruasMarinas-Imagenes{
+	margin-top: 65px;
+	padding-left: 2px;
+}
+
+.GruasMarinas-Imagenes img{
+	margin-right: -1px;
+}
+
+
+
+/************************************************************************************/
+
+.Equipos{
+	background: #b9d2ed url(../images/fondos/bgEquipos.jpg) center no-repeat;
+}
+
+.Equipos-Center{
+	width: 873px;
+	color: #fff;
+	top: 12%;
+}
+
+.Equipos-Title{
+	margin-bottom: 18px;
+}
+
+.Equipos-Imagenes{
+	margin-top: 50px;
+}
+
+/************************************************************************************/
+
+.Clientes{
+	background: #b9d2ed url(../images/fondos/bgClientes.jpg) center no-repeat;
+}
+
+.Clientes-Center{
+	width: 790px;
+	top: 11%;
+}
+
+.Clientes-Title{
+	color: #bb0a1b;
+	margin-bottom: 18px;
+}
+
+.Clientes-Txt{
+	max-width: 528px;
+}
+
+.Clientes-Logos{
+	background: url(../images/fondos/bgLogosClientes.png) center no-repeat;
+	padding-top: 90px;
+	padding-bottom: 100px;
+}
+
+/************************************************************************************/
+
+.Instalaciones{
+	background: #b9d2ed url(../images/fondos/bgInstalaciones.jpg) center no-repeat;
+}
+
+.Instalaciones-Center{
+	width: 889px;
+	top: 22%;
+}
+
+.Instalaciones-Title{
+	color: #bb0a1b;
+	margin-bottom: 18px;
+}
+
+.Instalaciones-Center p{
+	max-width: 450px;
+}
+
+/************************************************************************************/
+
+.Contacto{
+	background: #b9d2ed url(../images/fondos/bgContacto.jpg) center no-repeat;
+}
+
+.Contacto-Center{
+	width: 889px;
+	top: 15%;
+	overflow:hidden;
+}
+
+.Contacto-Formulario{
+	width: 515px;
+}
+
+.Contacto-Title{
+	color: #333333;
+	margin-bottom: 18px;
+}
+
+.Contacto-Txt{
+	margin-bottom: 35px;
+}
+
+.Contacto-Btn{
+	width: 247px;
+	height: 40px;
+	color: #fff;
+	font: 24px 'arvoregular';
+	background-color: #bb0a1b;
+	padding-top: 10px;
+	margin: 0px auto;
+	margin-top: -22px;
+	position: relative;
+}
+
+.Contacto-Btn:hover{
+    background-color: #ff0b22;
+}
+
+
