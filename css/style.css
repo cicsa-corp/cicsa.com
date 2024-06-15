@@ -251,6 +251,25 @@ input[type="checkbox"]
 	padding-left: 28px;
 }
 
+.MainNav-ListContacto-Directorio{
+	font-size: 14px;
+}
+
+.MainNav-ListContacto-Directorio a{
+	color: #333333;
+}
+
+
+.MainNav-ListContacto-Directorio{
+	padding-left: 2px;
+    padding-right: 28px
+}
+
+.MainNav-ListContacto-Directorio li{
+	margin-bottom: 10px;
+	padding-left: 28px;
+}
+
 .MainNav-IcoDireccion{
 	background: url(../images/icoDireccion.png) 0px 3px no-repeat;
 }
@@ -569,4 +588,38 @@ article{
     background-color: #ff0b22;
 }
 
+.directory {
+	width: 80%;
+	max-width: 800px;
+	
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
 
+.person-card {
+	background-color: white;
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+}
+
+.person-card:hover {
+	transform: translateY(-5px);
+}
+
+.person-card h2 {
+	margin: 0 0 10px;
+	font-size: 1.5em;
+	color: #333;
+}
+
+.person-card p {
+	margin: 5px 0;
+	color: #666;
+}
+
+.person-card p strong {
+	color: #333;
+}
